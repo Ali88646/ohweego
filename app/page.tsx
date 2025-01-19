@@ -1,10 +1,17 @@
+import Container from "@/components/Container";
+import Hero from "@/components/Hero";
 import Navbar from "@/components/Navbar";
+import Steps from "@/components/Steps";
 
 const Home = () => {
   return (
-    <main className="min-h-screen">
+    <>
       <Navbar />
-    </main>
+      <Container>
+        <Hero />
+        <Steps />
+      </Container>
+    </>
   );
 };
 

@@ -23,8 +23,8 @@ const NavbarItems = () => {
           <Link
             key={item.name}
             href={item.href}
-            className={`${
-              isSamePath ? "text-white font-semibold" : "text-gray-text-color"
+            className={`text-white font-semibold ${
+              isSamePath ? " text-white" : "text-white/70"
             } hover:text-white hover-effect`}
           >
             {item.name}
