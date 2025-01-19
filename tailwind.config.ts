@@ -22,6 +22,7 @@ export default {
         "gradient-bg-color":
           "linear-gradient(to left, #254AF7, #FF007A, #FD7E40)",
         "image-url": "url('/images/radial-bg.png')",
+        "gradient-text-color": "linear-gradient(to left, #254AF7, #FF007A)",
       },
     },
   },

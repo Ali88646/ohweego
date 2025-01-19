@@ -5,7 +5,7 @@ import NavbarItems from "./NavbarITemes";
 
 const Navbar = () => {
   return (
-    <nav className="w-full h-[6rem] px-[5vw] flex items-center justify-between text-white fixed top-0 left-0  backdrop-blur-sm z-10">
+    <nav className="w-full h-[6rem] px-[5vw] flex items-center justify-between text-white fixed top-0 left-0  backdrop-blur-sm z-50">
       <Logo />
       <NavbarItems />
       <Button text="Start Your Journey!" />
