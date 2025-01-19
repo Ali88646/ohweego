@@ -9,8 +9,17 @@ export default {
   theme: {
     extend: {
       colors: {
-        background: "var(--background)",
-        foreground: "var(--foreground)",
+        "main-bg-color": "#121212",
+        "card-bg-color": "#181818",
+        "primary-color": "#FF007A",
+        "secondary-color": "#254AF7",
+        "acccent-color": "#FD7E40",
+        "white-text-color": "#FFFFFF",
+        "gray-text-color": "#515151",
+      },
+      backgroundImage: {
+        "gradient-bg-color":
+          "linear-gradient(to left, ##254AF7, #FF007A, #FD7E40)",
       },
     },
   },
