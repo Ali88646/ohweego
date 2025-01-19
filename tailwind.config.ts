@@ -20,6 +20,8 @@ export default {
       backgroundImage: {
         "gradient-bg-color":
           "linear-gradient(to left, ##254AF7, #FF007A, #FD7E40)",
+        "radial-bg-color":
+          "radial-gradient(circle at center, #FF007A, #121212,#121212)",
       },
     },
   },

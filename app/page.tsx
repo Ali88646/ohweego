@@ -1,5 +1,11 @@
+import Navbar from "@/components/Navbar";
+
 const Home = () => {
-  return <main className="bg-main-bg-color min-h-screen px-[5vw]"></main>;
+  return (
+    <main className="min-h-screen">
+      <Navbar />
+    </main>
+  );
 };
 
 export default Home;
