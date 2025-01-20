@@ -3,9 +3,10 @@ import Button from "./Button";
 
 const Hero = () => {
   return (
-    <section className="h-[135vh] md:h-[125vh] w-full bg-main-bg-color/60  pt-[6rem] relative">
-      <div className="bg-image-url bg-cover  bg-no-repeat bg-center absolute top-0 md:-left-10 w-full h-full -z-10 bg-opacity-75 pointer-events-none"></div>
-      <div className="flex md:flex-row flex-col gap-3 w-full h-full px-[3vw]">
+    <section className="h-[135vh] md:h-[125vh] w-full   pt-[6rem]">
+      <div className="flex md:flex-row flex-col gap-3 w-full h-full px-[3vw] relative">
+        {/* for setting */}
+        <div className="bg-image-url bg-cover  bg-no-repeat bg-center absolute top-[5rem]  w-full h-full -z-10 bg-opacity-75 pointer-events-none"></div>
         <div className="col-span-3 mt-14 md:mt-0 min-w-full md:min-w-[60%] flex flex-col gap-5 justify-center items-center md:items-start">
           <h1 className="uppercase text-4xl md:text-6xl font-bold text-center md:text-start">
             Boost Your TikTok & <br /> Earn Rewards – <br /> Challenge Yourself!

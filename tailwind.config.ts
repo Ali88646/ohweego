@@ -10,19 +10,22 @@ export default {
   theme: {
     extend: {
       colors: {
+        "white-text-color": "#FFFFFF",
+        "gray-text-color": "#515151",
+      },
+      backgroundColor: {
         "main-bg-color": "#121212",
         "card-bg-color": "#181818",
         "primary-color": "#FF007A",
         "secondary-color": "#254AF7",
-        "acccent-color": "#FD7E40",
-        "white-text-color": "#FFFFFF",
-        "gray-text-color": "#515151",
+        "accent-color": "#FD7E40",
       },
       backgroundImage: {
         "gradient-bg-color":
           "linear-gradient(to left, #254AF7, #FF007A, #FD7E40)",
         "image-url": "url('/images/radial-bg.png')",
         "gradient-text-color": "linear-gradient(to left, #254AF7, #FF007A)",
+        "devisor-bg": "linear-gradient(to top, #254AF7, #FF007A, #FD7E40)",
       },
     },
   },

@@ -1,27 +1,7 @@
 import React from "react";
 import CardBackground from "./CardBackground";
 import GradientText from "./GradientText";
-import { TbTargetArrow } from "react-icons/tb";
-import { TbFlag3Filled } from "react-icons/tb";
-import { BiSolidDollarCircle } from "react-icons/bi";
-
-const cardData = [
-  {
-    title: "Get Challenges",
-    desc: "Discover exciting tasks tailored to boost your growt.",
-    icon: <TbTargetArrow className="text-5xl" />,
-  },
-  {
-    title: "Complete Challenges",
-    desc: "Show your skills and tick of each task with ease.",
-    icon: <TbFlag3Filled className="text-5xl" />,
-  },
-  {
-    title: "Earn Coins & Money",
-    desc: "Turn your efforts into real rewards and success.",
-    icon: <BiSolidDollarCircle className="text-5xl" />,
-  },
-];
+import { stepsCardData } from "@/data";
 
 const Steps = () => {
   return (
@@ -31,8 +11,8 @@ const Steps = () => {
         <h2 className="text-4xl font-bold">
           How it <GradientText text="Works" />
         </h2>
-        <div className="w-full grid md:grid-cols-3 grid-cols-1 md:gap-10 gap-5 mt-10 px-10 md:px-0">
-          {cardData.map((item, i) => {
+        <div className="w-full grid md:grid-cols-3 grid-cols-1 md:gap-10 gap-5 mt-10 px-10 md:px-0 ">
+          {stepsCardData.map((item, i) => {
             return (
               <CardBackground key={i}>
                 <div className="w-full flex flex-col items-center gap-4 py-10 px-12">
