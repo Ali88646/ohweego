@@ -26,7 +26,7 @@ const benefitsData = [
 
 const Benefits = () => {
   return (
-    <section className="md:mt-56 mt-32 rounded-3xl">
+    <section className="md:mt-56 mt-32 rounded-3xl sm:px-16 md:px-0">
       <div className="flex flex-col">
         <div className="flex flex-col items-center gap-3">
           <p className="text-md font-semibold">Benefits</p>

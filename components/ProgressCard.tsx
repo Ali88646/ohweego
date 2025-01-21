@@ -21,7 +21,7 @@ const ProgressCard = ({ data, index, length }: Props) => {
         </p>
       </div>
       {index < length - 1 && (
-        <div className="bg-devisor-bg w-0.5 h-[100px] hidden md:block"></div>
+        <div className="bg-devisor-bg w-0.5 md:h-[100px] sm:h-[80px] hidden sm:block"></div>
       )}
     </>
   );

@@ -4,7 +4,7 @@ import ServicesCard from "./ServicesCard";
 
 const Services = () => {
   return (
-    <Container className="mt-24 md:px-[8vw]">
+    <Container className="mt-24 md:px-[8vw] sm:px-[12vw]">
       <div className="w-full flex flex-col items-center gap-3">
         <p className="text-md font-semibold">Services & Benefits</p>
         <h2 className="text-4xl font-bold">

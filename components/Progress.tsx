@@ -26,7 +26,7 @@ const data = [
 const Progress = () => {
   return (
     <Container className="mt-36">
-      <div className="w-full flex flex-col md:flex-row md:gap-5  justify-around items-center">
+      <div className="w-full flex flex-col sm:flex-row md:gap-5 justify-around items-center sm:px-16 md:px-0">
         {data.map((item, index) => {
           return (
             <ProgressCard

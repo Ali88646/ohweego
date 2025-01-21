@@ -11,7 +11,7 @@ interface Props {
 
 const ServicesCard = ({ heading, description, text }: Props) => {
   return (
-    <CardBackground className="md:w-[90%] w-full py-10 md:px-5">
+    <CardBackground className="md:w-[90%] w-full py-10 md:px-5 px-2">
       <div className="flex flex-col gap-2  items-center  w-full md:px-5">
         <h2 className=" text-xl md:text-3xl font-bold text-center md:text-start ">
           {heading}
@@ -33,7 +33,7 @@ const ServicesCard = ({ heading, description, text }: Props) => {
       <div className="w-full flex justify-center mt-10 px-10">
         <Button
           text="Apply Now"
-          className="w-full bg-secondary-color text-white hover:bg-white hover:text-black"
+          className="w-full bg-secondary-color text-white hover:bg-white hover:text-black sm:w-2/3 md:w-full"
         />
       </div>
     </CardBackground>

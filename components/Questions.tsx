@@ -6,23 +6,23 @@ import Question from "./Question";
 const faqData = [
   {
     question: "What are the benefits of joining your Agency?",
-    answer: "Lorem ipsum dolor sit amet, consecteturadipiscingore text",
+    answer: "Lorem ipsum dolor sit amet consectetur adipiscingore text",
   },
   {
     question: "What are the benefits of joining your Agency?",
-    answer: "Lorem ipsum dolor sit amet, consecteturadipiscingore text",
+    answer: "Lorem ipsum dolor sit amet, consectetur adipiscingore text",
   },
   {
     question: "What can I expect once I join Ohweego?",
-    answer: "Lorem ipsum dolor sit amet, consecteturadipiscingore text",
+    answer: "Lorem ipsum dolor sit amet, consectetur adipiscingore text",
   },
   {
     question: "Is the Agency entirely free?",
-    answer: "Lorem ipsum dolor sit amet, consecteturadipiscingore text",
+    answer: "Lorem ipsum dolor sit amet, consectetur adipiscingore text",
   },
   {
     question: "What are the benefits of joining your Agency?",
-    answer: "Lorem ipsum dolor sit amet, consecteturadipiscingore text",
+    answer: "Lorem ipsum dolor sit amet, consectetur adipiscingore text",
   },
   {
     question: "What are the benefits of joining your Agency?",
@@ -38,7 +38,8 @@ const Questions = () => {
   };
 
   return (
-    <div className="w-full mt-10 grid md:grid-cols-2 grid-cols-1 gap-5 lg:px-[2vw]">
+    // grid md:grid-cols-2 grid-cols-1
+    <div className="w-full mt-10 flex flex-col  md:flex-row flex-wrap lg:px-[2vw] gap-5 items-center md:items-start justify-start md:justify-center">
       {faqData.map((faq, i) => {
         return (
           <Question

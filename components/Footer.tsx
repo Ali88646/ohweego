@@ -18,7 +18,7 @@ const Footer = () => {
       <div className="flex flex-col gap-10">
         <div className="flex flex-col items-start gap-3">
           <Logo className="text-center w-full md:text-start" />
-          <p className="text-xl text-center md:text-start">
+          <p className="w-full md:text-xl text-lg text-center md:text-start md:px-0 px-12">
             Empowering TikTok creators to scale, achieve, and grow with Ohweego.
           </p>
           {/* socials */}
@@ -30,13 +30,13 @@ const Footer = () => {
             <FaYoutube size={36} />
           </div>
         </div>
-        <p className="font-bold text-center md:text-start">
+        <p className="font-bold text-center md:text-start ">
           &copy; Ohweego.com 2025
         </p>
       </div>
       <hr className="md:hidden border-none mx-16 h-[1px] bg-gradient-bg-color opacity-60" />
       {/* right section */}
-      <div className="grid grid-cols-6 gap-5">
+      <div className="grid grid-cols-6 gap-5 place-items-center md:place-items-start">
         <div className="flex flex-col gap-5 col-span-2">
           <h2 className="font-bold text-lg">Features</h2>
           <div className="flex flex-col gap-3">
@@ -58,11 +58,11 @@ const Footer = () => {
           <h2 className="font-bold text-lg">Company Info</h2>
           <div className="flex flex-col gap-2">
             <div className="flex items-center gap-2">
-              <HiOutlineLocationMarker size={36} />
+              <HiOutlineLocationMarker className="text-4xl" />
               <p>1234 Elm Street, Suite 567, Metropolis, NY 10101, USA</p>
             </div>
             <div className="flex items-center gap-2">
-              <IoMailOutline />
+              <IoMailOutline className="text-xl" />
               <p>info@dummycompany.com</p>
             </div>
           </div>
