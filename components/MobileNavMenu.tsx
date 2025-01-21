@@ -1,12 +1,9 @@
 "use client";
 import { IoClose } from "react-icons/io5";
 
-import { useRef, useState } from "react";
 import { HiMenuAlt1 } from "react-icons/hi";
 import Link from "next/link";
 import { usePathname } from "next/navigation";
-import gsap from "gsap";
-import { useGSAP } from "@gsap/react";
 
 const navbarItems = [
   { name: "Home", href: "/" },
@@ -20,7 +17,6 @@ const MobileNavMenu = () => {
   const [isActive, setisActive] = useState(false);
 
   const pathname = usePathname();
-  const navMenuRef = useRef(null);
   const handleIsActive = () => {
     setisActive((prev) => !prev);
   };

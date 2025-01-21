@@ -1,36 +1,12 @@
-"use client";
-
-import React, { useEffect, useState } from "react";
 import Logo from "./Logo";
 import Button from "./Button";
 import NavbarItems from "./NavbarITemes";
 import MobileNavMenu from "./MobileNavMenu";
+import NavbarContainer from "./NavbarContainer";
 
 const Navbar = () => {
-  const [isScrolled, setIsScrolled] = useState<number>(0);
-  const [isVisible, setIsVisible] = useState<boolean>(true);
-
-  useEffect(() => {
-    function handleIsScrolled() {
-      const currentScroll = window.scrollY;
-      if (currentScroll > isScrolled) {
-        setTimeout(() => setIsVisible(false), 300);
-      } else {
-        setTimeout(() => setIsVisible(true), 300);
-      }
-      setIsScrolled(currentScroll);
-    }
-
-    window.addEventListener("scroll", handleIsScrolled);
-    return () => window.removeEventListener("scroll", handleIsScrolled);
-  }, [isScrolled, window.scrollY]);
-
   return (
-    <nav
-      className={`w-full h-[4rem] md:h-[6rem] px-[5vw] flex items-center justify-between text-white fixed ${
-        isVisible ? "top-0" : "md:-top-[8rem]"
-      } left-0  backdrop-blur-sm z-50 hover-effect`}
-    >
+    <NavbarContainer>
       <Logo />
       <NavbarItems />
       <Button
@@ -40,7 +16,7 @@ const Navbar = () => {
       <div className="md:hidden">
         <MobileNavMenu />
       </div>
-    </nav>
+    </NavbarContainer>
   );
 };
 
