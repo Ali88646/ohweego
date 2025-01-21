@@ -23,7 +23,7 @@ const NavbarContainer = ({ children }: Props) => {
 
     window.addEventListener("scroll", handleIsScrolled);
     return () => window.removeEventListener("scroll", handleIsScrolled);
-  }, [isScrolled, window.scrollY]);
+  }, [isScrolled]);
 
   return (
     <nav

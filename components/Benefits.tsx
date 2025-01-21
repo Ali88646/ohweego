@@ -1,6 +1,5 @@
 import React from "react";
 import GradientText from "./GradientText";
-// import { benefitsData } from "@/data";
 import BenefitsCard from "./BenefitsCard";
 
 const benefitsData = [
