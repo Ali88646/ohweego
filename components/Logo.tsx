@@ -1,5 +1,13 @@
-const Logo = () => {
-  return <div className="text-2xl font-semibold">Ohweego</div>;
+import { twMerge } from "tailwind-merge";
+
+interface Props {
+  className?: string;
+}
+
+const Logo = ({ className }: Props) => {
+  return (
+    <div className={twMerge("text-2xl font-semibold", className)}>Ohweego</div>
+  );
 };
 
 export default Logo;

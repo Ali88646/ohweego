@@ -8,8 +8,8 @@ const navbarItems = [
   { name: "Home", href: "/" },
   { name: "About", href: "/about" },
   { name: "How it works", href: "/#" },
-  { name: "Benifits", href: "/benifits" },
-  { name: "FAQ's", href: "/faqs" },
+  { name: "Benifits", href: "/#" },
+  { name: "FAQ's", href: "/#" },
 ];
 
 const NavbarItems = () => {

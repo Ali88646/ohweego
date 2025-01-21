@@ -14,13 +14,13 @@ const benefitsData = [
     title: "Earning Potential",
     desc: "Unlock the ability to turn your creativity and hard work into real monetary rewards, boosting both your income and motivation.",
     image: "/images/image-2.png",
-    bgColor: "bg-primary-color",
+    bgColor: "bg-accent-color",
   },
   {
     title: "Easy Challenge System",
     desc: "Experience a straightforward and engaging challenge system that makes completing tasks fun, simple, and highly rewarding.",
     image: "/images/image-3.png",
-    bgColor: "bg-accent-color",
+    bgColor: "bg-primary-color",
   },
 ];
 

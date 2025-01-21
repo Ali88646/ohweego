@@ -1,6 +1,16 @@
 import React from "react";
 
-const ProgressCard = ({ data, index, length }) => {
+interface Props {
+  data: {
+    icon: React.ReactElement;
+    progress: number;
+    text: string;
+  };
+  index: number;
+  length: number;
+}
+
+const ProgressCard = ({ data, index, length }: Props) => {
   return (
     <>
       <div className="flex flex-col gap-3 items-center justify-center p-4  relative">
